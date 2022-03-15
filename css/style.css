@@ -1,0 +1,867 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Nav **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+#Home:hover,
+#Diensten:hover,
+#EnqueteB:hover,
+#VideoB:hover,
+#Form:hover {
+    opacity: 0.5;
+    border-bottom: 0.2em solid rgba(3, 33, 156, 0.9);
+}
+
+nav {
+    margin-left: 1.5%;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+li {
+    font-size: 1.2em;
+    list-style: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 3%;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Footer **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+footer {
+    background-color: rgba(3, 33, 156, 0.9);
+    width: 100%;
+    color: white;
+    height: 10em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.fright {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 4%;
+}
+
+.fmid {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.klikhier {
+    height: 2em;
+    font-size: 2em;
+    background: rgba(3, 33, 156, 0.9);
+    color: white;
+    border: none;
+}
+
+.Selected {
+    border-bottom: 0.2em solid rgba(3, 33, 156, 0.9);
+}
+
+address a {
+    color: #ffdc0b;
+    text-decoration: underline;
+}
+
+.footertext {
+    margin-top: 0%;
+}
+
+address {
+    margin-top: -0.5%;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* TeamDimar **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+.decor3 {
+    border: 2em solid rgba(3, 33, 156, 0.9);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom: none;
+    width: 1px;
+    margin-bottom: 2%;
+}
+
+.Banner {
+    display: flex;
+}
+
+.Menu {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Veiligheidscoordinatie {
+    font-size: 1.3em;
+    display: flex;
+}
+
+.IMGindex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.VeiligheidscoordinatieSubMenu {
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#Veiligheidscoordinatie,
+#Nutsvoorzieningen,
+#PBverslaggeving {
+    width: 100%;
+    background: rgba(3, 33, 156, 0.9);
+    color: white;
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    margin-left: 0%;
+    margin-bottom: 2%;
+}
+
+.Bannertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.Bannertext h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Diensten **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+.body {
+    padding: 2.5%;
+    padding-top: 0%;
+    color: white;
+}
+
+.TeamdimarhTitle {
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Team_Dimar {
+    font-size: 2em;
+    grid-column: 1/4;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.even {
+    border-radius: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.MidColumn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.Dienst {
+    background-color: rgba(3, 33, 156);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin: 5%;
+    padding: 3%;
+    margin-right: 4.25%;
+}
+
+.Column {
+    margin-right: 1%;
+}
+
+.LastColumn {
+    margin: 1.5%;
+    margin-right: 20%;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1em solid rgba(3, 33, 156);
+    border-left: none;
+    border-right: none;
+    color: black;
+    width: 96%;
+}
+
+.Midcolumn {
+    color: black;
+    grid-column: 1/3;
+}
+
+.Coronatime {
+    font-size: 2em;
+    color: Black;
+    text-align: center;
+}
+
+.CoronatimeSmal {
+    color: Black;
+}
+
+.cardib {
+    width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+.collegas {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding-right: 1%;
+}
+
+.collegas img {
+    height: 15em;
+    margin-right: 2em;
+}
+
+.Title {
+    grid-column: 1/4;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#enquete,
+#Video {
+    color: white;
+    background-color: rgba(3, 33, 156, 0.9);
+    padding: 1em;
+    border-radius: 1px;
+    border: none;
+    font-size: 1em;
+}
+
+.Dienst:hover {
+    opacity: 0.7;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Enquete **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-bottom: 0.5em solid rgba(3, 33, 156, 0.9);
+    border-top: 0.5em solid rgba(3, 33, 156, 0.9);
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+}
+
+.container_Processing {
+    background-color: rgba(3, 33, 156, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-left: 4%;
+    width: 80%;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    visibility: hidden;
+    border-top: 2em solid rgb(3, 33, 156);
+    border-bottom: 2em solid rgb(3, 33, 156);
+}
+
+.Fillinsecksion {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 80%;
+    display: flex;
+}
+
+#question {
+    color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+#A1,
+#A2,
+#A3,
+#A4 {
+    width: 50%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#danku {
+    visibility: hidden;
+    display: none;
+    text-align: center;
+    justify-content: center;
+    border-top: 0.5em solid rgba(3, 33, 156, 0.9);
+    border-bottom: 0.5em solid rgba(3, 33, 156, 0.9);
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Video **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+.Vcontainer {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.video {
+    margin-left: 0%;
+    width: 92%;
+    height: 40em;
+    object-fit: cover;
+}
+
+.vidarticle {
+    margin-left: 4.7%;
+    border-top: 1.5em solid rgb(3, 33, 156);
+    background-color: rgba(3, 33, 156, 0.9);
+    ;
+    padding: 5%;
+    font-size: 1.5em;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 86%;
+}
+
+.VidWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95.5%;
+    margin-top: 2%;
+}
+
+.vidarticle img {
+    margin-left: -5%;
+    margin-right: 6%;
+    width: 50%;
+    object-fit: contain;
+}
+
+.LogoVid {
+    width: 30%;
+    margin-left: 1.5%;
+}
+
+.jumping_people {
+    width: 65%;
+}
+
+.jumping_peoplefigure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 6%;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Teamdimar **/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+.Container {
+    background: rgba(3, 33, 156, 0.9);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5%;
+    border-top: 2em solid rgb(3, 33, 156);
+}
+
+.TeamTitle {
+    font-size: 3em;
+}
+
+.Content {
+    margin-left: 4.5%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+}
+
+.Title {
+    font-size: 5em;
+}
+
+.TeamFotoTekst {
+    font-size: 1.5em;
+    margin-right: 5%;
+}
+
+.TeamFoto {
+    margin-right: 0.45%;
+}
+
+.DimarFoto {
+    width: 30em;
+    margin-top: 10%;
+}
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+
+/* Form**/
+
+
+/* ////////////////////////////////////////////////////////////// **/
+
+label {
+    text-align: left;
+    margin-left: 1.5%;
+    font-size: 1.5em;
+}
+
+.offerte {
+    font-size: 3em;
+}
+
+.idgaf {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
+
+textarea,
+input {
+    border: none;
+    padding: 1%;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+#input input:focus,
+textarea:focus {
+    border-radius: 15px;
+}
+
+.container-contact100 {
+    margin-left: 5%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    background: white;
+    margin-left: 3%;
+}
+
+.wrap-contact100 {
+    margin-top: 5%;
+    padding: 5%;
+    width: 80%;
+    background: rgba(3, 33, 156, 0.9);
+    border-top: 1em solid rgb(3, 33, 156);
+    overflow: hidden;
+}
+
+.submit button {
+    font-size: 2em;
+    background: None;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 5%;
+    color: white;
+    background: rgb(3, 33, 156);
+}
+
+
+/*------------------------------------------------------------------
+  [ Responsive ]*/
+
+
+/* Home **/
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1425px) {
+    .DimarFoto {
+        display: none;
+        width: 0px;
+    }
+    .TeamFotoTekst {
+        margin: 0%;
+    }
+    .TeamFoto {
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #Image {
+        object-fit: contain;
+        width: 80%;
+    }
+    .ButtonGroup {
+        margin-top: 10%;
+    }
+    .LastColumn {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-wrap: wrap;
+    }
+    .Team_Dimar {
+        display: none;
+    }
+    .collegas {
+        width: 400px;
+    }
+    .collegas img {
+        object-fit: contain;
+    }
+    .fright {
+        width: 45%;
+    }
+    .footertext,
+    address {
+        font-size: 0.80em;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .Column {
+        margin-right: 2%;
+    }
+    .Midcolumn {
+        margin-bottom: 5%;
+    }
+    .collegas {
+        width: 600px;
+        font-size: 1.5em;
+    }
+    .collegas img {
+        object-fit: contain;
+    }
+    .Veiligheidscoordinatiecontent {
+        display: block;
+    }
+    .Banner img {
+        display: none;
+    }
+    .nav {
+        margin-left: 0.40%;
+    }
+    .Container {
+        border-top: rgba(3, 33, 156, 0.9);
+        margin-top: 5%;
+    }
+    .Banner img {
+        display: none;
+    }
+    .nav {
+        margin-left: 0%;
+    }
+    .fmid {
+        width: 100%;
+        margin-left: 4%;
+    }
+    .even {
+        grid-template-columns: 1fr 1fr;
+        margin-left: -1%;
+        margin-right: -2%;
+    }
+    #Last {
+        display: none;
+    }
+    .fright {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .Dienst {
+        font-size: 1em;
+    }
+    .VeiligheidscoordinatieSubMenu {
+        width: 100%;
+    }
+    .Veiligheidscoordinatie {
+        display: block;
+    }
+    .offerte {
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    .LastColumn {
+        justify-content: center;
+    }
+    .collegas {
+        font-size: 1em;
+        width: 350px;
+        border: 2px solid black;
+        margin: 0%;
+        margin-bottom: 5%;
+        padding: 0%;
+        border: none;
+    }
+    .collegas img {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-right: 2em;
+    }
+    .fleftTitle {
+        padding-left: 0%;
+    }
+    #Title {
+        padding: 0%;
+    }
+    .TeamTitle {
+        padding: 0%;
+        font-size: 2.5em;
+    }
+    .Container {
+        border-top: rgba(3, 33, 156, 0.9);
+        margin-top: 10%;
+        font-size: 1em;
+    }
+    .Veiligheidscoordinatie {
+        width: 100%;
+    }
+    nav {
+        margin-left: 4%;
+        margin-right: 4%;
+        border-top: 1em solid rgba(3, 33, 156, 0.9);
+        border-bottom: 1em solid rgba(3, 33, 156, 0.9);
+    }
+    nav ul {
+        margin-left: -10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 0;
+    }
+    .Bannertext {
+        padding-top: 5%;
+    }
+    #Image {
+        display: none;
+    }
+    .ButtonGroup {
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .Column {
+        margin-top: 5%;
+    }
+    .collegas img {
+        object-fit: contain;
+        width: 50%;
+        margin-right: 0.5em;
+        background-color: white
+    }
+    .Blockquote {
+        font-size: 1.5em;
+    }
+    .LogoVid,
+    .jumping_peoplefigure {
+        display: none;
+    }
+    form {
+        flex-direction: column;
+    }
+    .idgaf {
+        width: 100%;
+    }
+    .wrap-contact100 {
+        padding: 2%;
+        width: 88%;
+        margin-left: -0.10%;
+        padding-bottom: 5%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .container-contact100 {
+        margin-left: 1.5%;
+    }
+    .wrap-contact100 {
+        width: 96%;
+    }
+    /* samengevoegd **/
+    .video {
+        height: 20em;
+    }
+    .fright {
+        display: none;
+    }
+    .footertext,
+    address {
+        font-size: 1em;
+    }
+    .even {
+        grid-template-columns: 1fr;
+        margin-left: -4%;
+        margin-right: -4%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .wrap-contact100 {
+        width: 96%;
+    }
+    .vidarticle {
+        font-size: 1.25em;
+    }
+    .container-contact100 {
+        margin-left: -1%;
+    }
+    .klikhier {
+        font-size: 1em;
+    }
+    .Container {
+        padding-bottom: 20%;
+        padding-top: 20%;
+    }
+    .Content {
+        margin-top: -15%;
+        margin-bottom: -15%;
+    }
+    address {
+        font-size: 12px;
+    }
+    .Veiligheidscoordinatiecontent p {
+        font-size: 12px;
+    }
+    .ButtonGroup Button {
+        font-size: 15px;
+    }
+    .Veiligheidscoordinatie {
+        font-size: 17px;
+    }
+    .TeamFotoTekst {
+        font-size: 20px;
+    }
+    .TeamTitle {
+        font-size: 2em;
+        margin-top: 0%;
+    }
+}
